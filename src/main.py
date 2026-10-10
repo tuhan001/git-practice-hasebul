@@ -1,6 +1,6 @@
 from datetime import date
 
-from utils import add, subtract
+from utils import add, multiply, subtract
 
 
 def main():
@@ -8,6 +8,7 @@ def main():
     print(f"Today's date: {date.today()}")
     print(f"5 + 3 = {add(5, 3)}")
     print(f"5 - 3 = {subtract(5, 3)}")
+    print(f"5 * 3 = {multiply(5, 3)}")
 
 
 if __name__ == "__main__":
